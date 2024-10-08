@@ -1,16 +1,16 @@
 using System;
 
-public class Docente{
+public class Docente : Persona{
        public string Meteria_doc { get; set; }
     public int Anios_exp { get; set; }
 
     // Constructor
-    public Persona() {
+    public Docente() {
         this.Meteria_doc = "S/M";
         this.Anios_exp = 0;
     }
 
-    public Persona(string materia_doc, int anios_exp) {
+    public Docente(string materia_doc, int anios_exp) {
         this.Meteria_doc = materia_doc;
         this.Anios_exp = anios_exp;
     }

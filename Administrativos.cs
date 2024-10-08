@@ -1,16 +1,16 @@
 using System;
 
-public class Administrativo{
+public class Administrativos : Persona{
        public string Departamento { get; set; }
     public string Puesto{ get; set; }
 
     // Constructor
-    public Persona() {
+    public Administrativos() {
         this.Departamento = "N/A";
         this.Puesto = 0;
     }
 
-    public Persona(string departamento, string puesto) {
+    public Administrativos( string departamento, string puesto) {
         this.Departamento = departamento;
         this.Puesto = puesto;
 

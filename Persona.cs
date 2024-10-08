@@ -1,10 +1,10 @@
 using System;
 
-public class persona{
+public class Persona{
        public string Nombre { get; set; }
-       public string Apellido{get; set }
+       public string Apellido{get; set; }
     public int Edad { get; set; }
-    public string Identificacion{get; set }
+    public string Identificacion{get; set; }
 
     // Constructor
     public Persona() {
